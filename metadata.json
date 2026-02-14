@@ -1,0 +1,8 @@
+{
+  "name": "Your Next Home Pro",
+  "description": "A dual-sided marketplace connecting homeowners with trusted local professionals.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
