@@ -77,7 +77,7 @@ export const Hero: React.FC<HeroProps> = ({ onSearch, onConciergeSearch, isThink
                 </AnimatePresence>
               </div>
 
-              <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-medium text-espresso leading-[1.1] mb-6 tracking-tight">
+              <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-medium text-espresso leading-tight md:leading-snug mb-6 tracking-tight">
                 Find Trusted Home <br />
                 Professionals with Ease.
               </h1>

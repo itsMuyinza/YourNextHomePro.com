@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Navbar, Footer } from './components/Layout';
 import { Hero } from './components/Hero';
 import { ProCard } from './components/ProCard';
+import { WhatYouGet } from './components/WhatYouGet';
+import { LogoScroller } from './components/LogoScroller';
 import { SearchResults } from './pages/SearchResults';
 import { ProProfile } from './pages/ProProfile';
 import { Dashboard } from './pages/Dashboard';
@@ -148,6 +150,7 @@ export default function App() {
                   onConciergeSearch={handleConciergeSearch}
                   isThinking={isThinking}
                 />
+                <WhatYouGet />
                 <div className="py-24 bg-paper relative">
                     <div className="max-w-[1920px] mx-auto px-4 mb-16 text-center">
                         <span className="text-terracotta font-bold tracking-widest text-xs uppercase mb-3 block">Our Selection</span>
@@ -169,6 +172,9 @@ export default function App() {
                             View Full Collection
                             <span className="transform group-hover:translate-x-1 transition-transform">→</span>
                         </button>
+                    </div>
+                    <div className="py-16">
+                        <LogoScroller />
                     </div>
                 </div>
               </motion.div>
